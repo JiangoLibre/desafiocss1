@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #32383b;
+}
+
+.card {
+    background: url(./assets/backgrounduse.png) no-repeat;
+    width: 400px;
+    height: 200px;
+    background-size:cover;
+    margin:auto;
+    
+}
+ul {
+    display: flex;
+}
+.list {
+    font-family: 'Play', sans-serif;
+    list-style-type: none;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+    margin: 5px 10px 5px 5px;
+}
+
+.nome {
+    font-family: 'Play', sans-serif;
+    list-style-type: none;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px 5px 5px;
+}
+
+.instagram {
+    list-style-image:url(./assets/instagram-logo.svg) ;
+}
+
