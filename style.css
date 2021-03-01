@@ -13,6 +13,7 @@ body {
     height: 200px;
     background-size:cover;
     margin:auto;
+    color: white;
     
 }
 ul {
@@ -24,11 +25,15 @@ ul {
     align-items: flex-end;
     display: flex;
     flex-direction: column;
-    
+    font-size: 13px;
+    color: white ;
 }
 
-a {
-    margin: 5px 10px 5px 5px;
+li {
+    margin: 10px 20px 5px 5px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .nome {
@@ -37,10 +42,19 @@ a {
     align-items: flex-end;
     display: flex;
     flex-direction: column;
-    margin: 5px 10px 5px 5px;
+    margin: 5px 20px 5px 5px;
 }
 
-.instagram {
-    list-style-image:url(./assets/instagram-logo.svg) ;
+.links {
+    text-decoration: none;
+   
 }
+.links:hover {
+    color:turquoise; 
+    transition: all 250ms ease;
+}
+.links:visited {
+    color: white;
+}
+
 
